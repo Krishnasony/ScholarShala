@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#22546b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorwhite">#f5f5f5</color>
+    <color name="progressBarColor">#090853</color>
+
+    <color name="toolbar">#ffffff</color>
+    <color name="buttoncolor">#5b80ea</color>
+
+    <color name="appcolor1">#745af3</color>
+    <color name="appcolor2">#06d79d</color>
+    <color name="appcolor3">#ffbc49</color>
+    <color name="appcolor4">#f0534e</color>
+    <color name="appcolor5">#fe9666</color>
+
+    <color name="backgroundProgressBarColor">#0d28ed</color>
+    <!--<color name="color_tab_1">#00e0f9</color>-->
+    <!--<color name="color_tab_2">#00e0f9</color>-->
+    <!--<color name="color_tab_3">#00e0f9</color>-->
+
+    <color name="screen1">#8041a9</color>
+    <color name="screen2">#1fba82</color>
+    <color name="screen3">#bea534</color>
+
+    <color name="dot_dark_screen1">#581384</color>
+    <color name="dot_dark_screen2">#06583a</color>
+    <color name="dot_dark_screen3">#806b0c</color>
+
+    <color name="dot_light_screen1">#865f9f</color>
+    <color name="dot_light_screen2">#81c7ad</color>
+    <color name="dot_light_screen3">#decd83</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="graylight">#D3D3D3</color>
+
+    <color name="firstcolor">#fffefe</color>
+    <color name="secondcolor">#fffefe</color>
+    <color name="thirdcolor">#fffefe</color>
+    <color name="colorhint">#828695</color>
+
+    <!--Cards Color-->
+    <color name="card_1">#ea7669</color>
+    <color name="card_2">#07BE6C</color>
+    <color name="card_3">#F9B42C</color>
+    <color name="card_4">#5009AA</color>
+    <color name="card_5">#773EAD</color>
+    <color name="card_6">#122B4A</color>
+    <color name="card_7">#00DBAA</color>
+    <color name="card_8">#DB008E</color>
+
+
+    <array name="dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+</resources>

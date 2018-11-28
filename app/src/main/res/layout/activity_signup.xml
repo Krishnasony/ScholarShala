@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/createaccount"
+    tools:context=".SignupActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="Create an account"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:id="@+id/namelayout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txt_reg_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#828695"
+                    android:backgroundTint="#828695">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter your name"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textColor="#fff" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/passwordlayout"
+                android:layout_below="@id/namelayout">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txt_reg_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#828695"
+                    android:backgroundTint="#828695"
+                    app:passwordToggleEnabled="true">
+
+
+                    <android.support.design.widget.TextInputEditText
+
+                        android:id="@+id/edt_login_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColor="#fff" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/phonelayout"
+                android:layout_below="@id/passwordlayout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txt_reg_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#828695"
+                    android:backgroundTint="#828695">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Phone No"
+                        android:inputType="phone"
+                        android:lines="1"
+                        android:textColor="#fff" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/doblayout"
+                android:layout_below="@id/phonelayout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txt_reg_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="false"
+                    android:textColorHint="#828695"
+                    android:backgroundTint="#828695">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Date"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textColor="#fff"
+                        android:focusableInTouchMode="false"/>
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/panamelayout"
+                android:layout_below="@id/doblayout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txt_reg_parent_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#828695"
+                    android:backgroundTint="#828695">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Parent Name"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:textColor="#fff" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/paphonelayout"
+                android:layout_below="@id/panamelayout">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/txt_reg_parent_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#828695"
+                    android:backgroundTint="#828695">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Parent Phone number"
+                        android:inputType="phone"
+                        android:lines="1"
+                        android:textColor="#fff" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/classlistlayout"
+                android:layout_below="@id/paphonelayout">
+
+                <Spinner
+                    android:id="@+id/classlist"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:prompt="@string/class_title"
+                    android:popupBackground="#fff"
+                    android:tooltipText="Select Class"
+                    android:background="#132952"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/subjectlayout"
+                android:layout_below="@id/classlistlayout"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:text="Subjects"
+                    android:textColor="#828695"
+                    android:textSize="18sp"
+                    />
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/subjects">
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/medlayout"
+                android:layout_below="@id/subjectlayout">
+
+                <Spinner
+                    android:id="@+id/classmed"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:popupBackground="#fff"
+                    android:background="#132952"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:prompt="@string/med_title" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_height="0dp"
+                    android:background="@drawable/login_button_bg"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:text="Register"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@id/subjectlayout"/>
+
+                <TextView
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:paddingLeft="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:text="Have an account? sign in"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

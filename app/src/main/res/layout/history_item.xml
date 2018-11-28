@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:id="@+id/historycard"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardElevation="12dp"
+        card_view:cardCornerRadius="4dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:id="@+id/transcation_id"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Transaction id 123"
+                android:textColor="#000"
+                android:padding="10dp"/>
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:src="@drawable/drop_down_arrow"
+                android:textColor="#000"
+                android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:id="@+id/historylayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="16"
+            >
+
+            <TextView
+                android:id="@+id/paidamount"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:text="Amount Paid:"
+                android:fontFamily="@font/proximanova"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date_of_paid"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:text="PAyment Date:"
+                android:padding="10dp"
+                android:fontFamily="@font/proximanova"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/payment_package"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:text="Payment Package:"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/proximanova"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/date_of_expiry"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"
+                android:text="Payment Valid Date:       23/08/2018"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/proximanova"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <!--<net.cachapa.expandablelayout.ExpandableLayout-->
+    <!--android:id="@+id/expandable_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:el_duration="1000"-->
+    <!--app:el_expanded="true"-->
+    <!--app:el_parallax="0.5">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="16dp"-->
+    <!--android:text="Fixed height" />-->
+
+    <!--</net.cachapa.expandablelayout.ExpandableLayout>-->
+
+</LinearLayout>

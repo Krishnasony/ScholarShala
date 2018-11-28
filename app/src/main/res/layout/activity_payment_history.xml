@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/testback1">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/payment_history_toolbar"
+        app:title="Payment History"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+    <ExpandableListView
+        android:id="@+id/simple_expandable_listview"
+        android:layout_weight="11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#e1e1e1"
+        android:dividerHeight="1dp">
+    </ExpandableListView>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center">
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/morepay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:text="Pay Now"
+            android:textSize="17sp"
+            android:background="@drawable/button_round"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

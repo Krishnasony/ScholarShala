@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:id="@+id/usergrp" android:checkableBehavior="single">
+                <item android:id="@+id/dashboard"
+                    android:icon="@drawable/home"
+                    android:title="DashBoard"
+                    />
+                <item android:id="@+id/editprof"
+                    android:icon="@drawable/editprofile"
+                    android:title="Profile"/>
+                <item android:id="@+id/subject"
+                    android:icon="@drawable/booksubject"
+                    android:title="Subject"/>
+                <item android:id="@+id/share"
+                    android:icon="@drawable/outline_share_black_18dp"
+                    android:title="Share" />
+        </group>
+
+        <group android:id="@+id/appgrp"
+            android:checkableBehavior="single">
+
+                <item android:id="@+id/visit"
+                    android:icon="@drawable/feed"
+                    android:title="Visit Website" />
+
+                <item android:id="@+id/pyh"
+                    android:icon="@drawable/ph"
+                    android:title="Payment History" />
+
+                <item android:id="@+id/l_out"
+                    android:icon="@drawable/logout"
+                    android:title="Log Out" />
+        </group>
+
+</menu>

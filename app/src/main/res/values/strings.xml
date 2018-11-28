@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Scholar Shala</string>
+    <string name="extra">For Best Quiz App Download Scholar Shala app https://www.playstore.example.com/ </string>
+    <string name="title_activity_count_down">CountDownActivity</string>
+    <string name="phone"><font size="10">Phone no.</font></string>
+    <string name="password"><font size="10">Password</font></string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="class_title">Select class</string>
+    <string name="med_title">Select class medium</string>
+    <string name="action_settings">Settings</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="channel_name">edumonk_apptest_channel</string>
+    <string name="chemistry">Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="physics">Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="mathematics">Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="socialscience">Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="science">Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="biology">Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="hindi">Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="english">Lorem Ipsum has been the industrys standard dummy text ever since the</string>
+    <string name="paymentpending">It seems that your payment is under pending status.</string>
+    <string name="paymentsuccess">Payment is successful.</string>
+    <string name="paymenterr">Payment Error</string>
+    <string name="registersuccess">You are registered successfully. Please login to start.</string>
+    <string name="updatesuccess">Your profile updated successfully.</string>
+    <string name="loginsuccess">You are logged in successfully</string>
+    <string name="validateinfo">Validating your info...</string>
+    <string name="phonevalidate">Please provide valid number. Please enter 10 digits phone number.</string>
+    <string name="passwordvalidate">Please provide the password</string>
+    <string name="nameerr">Please provide your name</string>
+    <string name="parentnameerr">Please provide your parent\'s name</string>
+    <string name="parentphonevalidate">Please provide your parent\'s valid phone number</string>
+    <string name="classserr">Please select your class</string>
+    <string name="subjecterr">Please select your class medium</string>
+    <string name="dateerr">Please provide your date of birth</string>
+    <string name="testtimeerr">So sorry !!! Test time is over.</string>
+    <string name="successtest">Thanks for the attending the test. We will announce the result very soon</string>
+    <string name="testfinished">Test finished.</string>
+    <string name="paymentvaliderr">It seems that your package validity is expired.</string>
+    <string name="nosubjecterr">It seems that no subject found here. Please sync your app</string>
+    <string name='submittest'>submitting your test.</string>
+</resources>

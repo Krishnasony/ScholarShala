@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="line_margin">4dp</dimen>
+    <dimen name="progressBarWidth">10dp</dimen>
+    <dimen name="backgroundProgressBarWidth">15dp</dimen>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+</resources>
